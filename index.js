@@ -8,7 +8,7 @@ const multer  = require('multer');
 const { v4: uuidv4 } = require('uuid');
 require("dotenv").config();
 const configuration = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
